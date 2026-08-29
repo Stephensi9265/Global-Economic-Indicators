@@ -1,10 +1,10 @@
 # Global-Economic-Indicators
 An interactive R Shiny application for exploring and comparing macroeconomic indicators across countries and regions using World Bank data.
-About the Project
+##About the Project
 This project originated as a final project for a statistical programming course at UIUC, where the original version used a static built-in dataset that ended in 2017.
 
 I later rebuilt and expanded the application out of an interest in macroeconomic development. The app connects directly to the World Bank API using the WDI package, updating the time series to cover 1960 through 2024. It also adds several new indicators (including PPP-adjusted GDP metrics, trade openness, and life expectancy), custom regional groupings, and built-in statistical testing tools.
-Features
+##Features
 Live Data Ingestion: Downloads data across 200+ countries directly from the World Bank API on startup.  
 Predefined Country Groupings: Includes standard World Bank regional aggregates as well as custom groupings (such as Southeast Asia, Europe, Central Asia, Former USSR, and MENA) to make multi-country comparisons faster.  
 Interactive Visualizations:Time Series: Multi-country trajectory plots over custom year ranges, with optional logarithmic scaling for population and income metrics.  
