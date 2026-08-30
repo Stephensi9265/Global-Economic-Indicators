@@ -16,8 +16,8 @@
 # NOTE: This app downloads data from the World Bank API on startup, which
 # may take a few seconds depending on your internet connection.
 #
-# AUTHOR: [Your Name]
-# DATE: [Date]
+# AUTHOR: Stephen Si
+# DATE: 2025.12.28
 # =============================================================================
 
 # -----------------------------------------------------------------------------
@@ -132,7 +132,6 @@ top50_population <- c(
   "Ghana", "Mozambique", "Yemen, Rep.", "Nepal", "Cote d'Ivoire"
 )
 
-# Southeast Asia (excluding Singapore - too rich, skews data)
 sea_countries <- c(
   "Brunei Darussalam", "Cambodia", "Indonesia", "Lao PDR", "Malaysia",
   "Myanmar", "Philippines", "Thailand", "Timor-Leste", "Vietnam"
