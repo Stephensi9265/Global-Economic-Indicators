@@ -1,5 +1,6 @@
 # Global-Economic-Indicators
 **Live Interactive App:** [https://stephensi9265.shinyapps.io/global-economy-explorer/](https://stephensi9265.shinyapps.io/global-economy-explorer/)
+
 An interactive R Shiny application for exploring and comparing macroeconomic indicators across countries and regions using World Bank data.
 ## About the Project
 This project originated as a final project for a statistical programming course at UIUC, where the original version used a static built-in dataset that ended in 2017.
