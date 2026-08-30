@@ -14,3 +14,9 @@ Statistical Analysis:Pearson Correlation: Calculates correlation coefficients ($
 Linear Regression: Fits an Ordinary Least Squares (OLS) model, displays model summaries and $R^2$, and renders fitted regression lines with standard error bands.  
 One-Way ANOVA: Tests for statistically significant mean differences across selected countries or groups.  
 Data Table: Interactive, searchable, and sortable data view built with DT.  
+## Indicators Included
+GDP: Nominal GDP (current US$) and GDP, PPP (current international $)  
+GDP per Capita: Nominal GDP per capita and GDP per capita, PPP  
+Growth & Labor: Annual GDP growth (%) and Unemployment rate (% of labor force)  
+Demographics & Prices: Total Population, Inflation (annual CPI %), and Life Expectancy at birth  
+Trade: Trade (% of GDP)
