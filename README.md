@@ -6,16 +6,15 @@ An interactive R Shiny application for exploring and comparing macroeconomic ind
 This project originated as a final project for a statistical programming course at UIUC, where the original version used a static built-in dataset that ended in 2017.
 
 I later rebuilt and expanded the application out of an interest in macroeconomic development. The app connects directly to the World Bank API using the WDI package, updating the time series to cover 1960 through 2024. It also adds several new indicators (including PPP-adjusted GDP metrics, trade openness, and life expectancy), custom regional groupings, and built-in statistical testing tools.
-## Features
-Live Data Ingestion: Downloads data across 200+ countries directly from the World Bank API on startup.  
-Predefined Country Groupings: Includes standard World Bank regional aggregates as well as custom groupings (such as Southeast Asia, Europe, Central Asia, Former USSR, and MENA) to make multi-country comparisons faster.  
-Interactive Visualizations:Time Series: Multi-country trajectory plots over custom year ranges, with optional logarithmic scaling for population and income metrics.  
-Scatterplots: Cross-sectional comparisons between any two indicators with optional log-scale transformations.  
-Bar Charts: Single-year horizontal rankings across selected countries.  
-Statistical Analysis:Pearson Correlation: Calculates correlation coefficients ($r$), confidence intervals, sample sizes, and $p$-values. 
-Linear Regression: Fits an Ordinary Least Squares (OLS) model, displays model summaries and $R^2$, and renders fitted regression lines with standard error bands.  
-One-Way ANOVA: Tests for statistically significant mean differences across selected countries or groups.  
-Data Table: Interactive, searchable, and sortable data view built with DT.  
+## What you can do
+Plot Economic Trends Over Time: Select any combination of countries or regions (e.g., US, China, Southeast Asia) and plot metrics like GDP per Capita, Population, or Inflation from 1960 to 2024. You can toggle a log scale on and off to compare economies of vastly different sizes clearly.  
+
+Test Relationships Between Indicators: Pick any two variables—such as Life Expectancy vs. GDP per Capita—and run statistical models right in the browser:  Linear Regression & Correlation: Get instant Pearson correlation coefficients ($r$), $p$-values, and an Ordinary Least Squares (OLS) regression line with $R^2$ variance explanation and confidence bands.  
+One-Way ANOVA: Check whether differences across selected countries or regional groups are statistically significant.  
+Compare Cross-Sections & Rankings:Scatterplots: See how two indicators align across multiple nations at once.  
+Ranked Bar Charts: Compare and rank countries side-by-side for any single year.  
+Explore Live World Bank Data:Pre-Set Regions: Use custom regional bundles (like Southeast Asia, Former USSR, or Top 20 Population) to add dozens of countries in one click.  
+Searchable Data Table: Filter, search, and sort raw numbers across 10 development metrics using an interactive DT table. 
 ## Indicators Included
 GDP: Nominal GDP (current US$) and GDP, PPP (current international $)  
 GDP per Capita: Nominal GDP per capita and GDP per capita, PPP  
