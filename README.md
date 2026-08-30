@@ -9,7 +9,11 @@ I later rebuilt and expanded the application out of an interest in macroeconomic
 ## What you can do
 Plot Economic Trends Over Time: Select any combination of countries or regions (e.g., US, China, Southeast Asia) and plot metrics like GDP per Capita, Population, or Inflation from 1960 to 2024. You can toggle a log scale on and off to compare economies of vastly different sizes clearly.  
 
-Test Relationships Between Indicators: Pick any two variables—such as Life Expectancy vs. GDP per Capita—and run statistical models right in the browser:  Linear Regression & Correlation: Get instant Pearson correlation coefficients ($r$), $p$-values, and an Ordinary Least Squares (OLS) regression line with $R^2$ variance explanation and confidence bands.  
+Test Relationships Between Indicators: Pick any two variables—such as Life Expectancy vs. GDP per Capita—and run statistical models right in the browser:  Linear Regression & Correlation: Get instant Pearson correlation coefficients ($r$), $p$-values, and an Ordinary Least Squares (OLS) regression line with $R^2$ variance explanation and confidence bands.
+### 💡 Example Finding from the App
+
+> **PPP vs. Nominal Living Standards (1990–2024, Top 50 Populous Nations):**  
+> Running the built-in correlation tool reveals that **GDP per Capita (PPP)** correlates more strongly with **Life Expectancy** ($r = 0.7189$) than **Nominal GDP per Capita** ($r = 0.6799$), illustrating how price-level-adjusted purchasing power better reflects standard-of-living metrics than market exchange rates.
 
 One-Way ANOVA: Check whether differences across selected countries or regional groups are statistically significant.  
 
